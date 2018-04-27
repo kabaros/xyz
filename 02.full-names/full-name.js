@@ -8,6 +8,7 @@
  */
 function fullName(firstName, lastName, title) {
   // code
+  return title + " " + firstName + " " + lastName;
 }
 
 module.exports = fullName;
