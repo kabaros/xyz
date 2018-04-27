@@ -7,6 +7,7 @@
  */
 function oppositeNumber(number) {
   // code here
+  return -1 * number;
 }
 
 module.exports = oppositeNumber;
