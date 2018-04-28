@@ -15,13 +15,17 @@ First step is to `fork` this repo to your account, then `clone` it locally.
 
 5. Commit often: Every time you finish one exercise, add it, commit it and push it to your repo so that  the PR gets updated.
 
+## DOM Exercise
+
+There is also a DOM exercise where you will use the [Giphy](https://giphy.com/) API to search for trending Gifs and display them in the Browser. Instructions are in `09.dom/index.html`
+
 # How to solve the exercises
 
-The exercise involve a set of tests that we will write code to make them pass. You can run one specific test by specifying a unique part of its file name, for example, you can run the first set of exercises with a watch with `npm test -- opposite. --watch` and the `watch` will make it run continuously when you save a file (you can drop the watch if you'd like and just run it manually `npm test -- opposite.` will run the tests with `opposite` in the file path).
+The exercise involve a set of tests that we will write code to make them pass. You can run one specific test by specifying a unique part of its file name, for example, you can run the first set of exercises with a watch with `npm test -- opposite --watch` and the `watch` will make it run continuously when you save a file (you can drop the watch if you'd like and just run it manually `npm test -- opposite` will run the tests with `opposite` in the file path).
 
 A good way to work is:
 
-- run the specifc test in *watch* mode, i.e. `npm test -- opposite. --watch`
+- run the specifc test in *watch* mode, i.e. `npm test -- opposite --watch`
 - the tests will be red initially, i.e. tests are failing (make sure they ran and they're failing - red)
 - open the code file (next to the test), and start writing code to make the code pass
 - every time you save, the tests should run again
